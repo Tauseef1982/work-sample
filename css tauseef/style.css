@@ -1,0 +1,289 @@
+
+
+
+
+
+
+
+
+
+
+.regitration-link{
+    color: #000;
+}
+.regitration-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.secondary-nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(216,216,216,0.5);
+}
+.login {
+    font-weight: bold;
+    color:  #4A4A4A;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login:hover {
+    font-weight: bold;
+    color: #14bef0;
+    border-bottom: 5px solid #14bef0 ;
+    text-decoration: none;
+    
+}
+.login:focus {
+    font-weight: bold;
+    color: #14bef0;
+    border-bottom: 5px solid #14bef0 ;
+    text-decoration: none;
+    
+}
+
+.imageContainer {
+               width: 394px;
+                float: right;
+                margin-top: 80px;
+    
+}
+.responsive-img {
+                 width: 100%;
+                 height: auto;
+}
+
+.loginformContainer{
+                   margin-top: 90px;
+                   width: 400px;
+                   border: 1px solid rgba(216,216,216,0.5) ;
+                  margin-left: 40px;
+                   padding-top: 10px;
+                   padding-bottom: 20px;
+}
+
+.dr-registrationlink {
+    font-size: 12px;
+    color: #ed9b2d;;
+}
+.dr-registrationlink:hover {
+    font-size: 12px;
+    color: #ed9b2d;;
+}
+.doctorlinkspan{
+ padding-top:30px ;
+}
+.loginformHeader {
+                 border-bottom: 1px solid rgba(216,216,216,0.5) ;
+}
+
+.emailfeild{
+             padding-left: 20px;
+             padding-top: 15px;
+}
+.loginfeild {
+    width: 360px;
+            border: 1px solid rgba(216,216,216,0.5);
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+            margin-top: -7px;
+            border-radius: 5px;
+}
+
+.loginfeild:focus {
+                border: 1px solid #14bef0;
+                
+}
+.passwordfieldContainer{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.passwordfield {
+    width: 360px;
+    border: 1px solid rgba(216,216,216,0.5);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    margin-top: -7px;
+    border-radius: 5px;
+}
+.passwordfield:focus {
+    border: 1px solid #14bef0;
+    
+}
+
+.mousePointer  {
+             font-size: 12px;
+             margin-top: 20px;
+             
+}
+.rememberme {
+           width: 16px;
+           height: 16px;
+}
+.forget  {
+       color: #14bef0;
+       font-size: 12px;
+}
+.forget:hover{
+    color: #14bef0;
+    text-decoration: none;
+
+}
+.btn-big {
+    width: 360px;
+      height: 40px;
+      margin-left: 40px;
+      margin-top: 20px;
+    background-color:   #14bef0;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+      
+}
+.submitcode {
+    width: 360px;
+      height: 40px;
+      margin-left: 20px;
+      margin-top: 20px;
+    background-color:   #14bef0;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+      
+}
+
+.btn-facebook {
+    width: 360px;
+    height: 40px;
+    margin-left: 40px;
+    
+    background-color: #3B5A97;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.registrationOption  {
+    border-bottom: 1px solid rgba(216,216,216,0.5) ;
+}
+
+.patientIcon  {
+      font-size: 40px;
+     
+      margin-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+}
+.patientIcon a {
+    color: #14bef0;
+}
+.signinlink {
+    margin-left: -20px;
+}
+.selectbox  {
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 35px;
+
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff
+}
+.selectbox select         {
+            padding: 10px 10px;
+            
+            border: none;
+            box-shadow: none;
+            background: transparent;
+            background-image: none;
+            -webkit-appearance: none;
+            line-height: 100%;
+         }
+  .mobilenoInput {
+                 padding-left: 10px;
+                 padding-top: 4px;
+                 padding-bottom: 4px;
+                width: 240px;
+                 border: 1px solid #ccc;
+                 border-radius: 4px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+
+    .loginformContainer {
+        margin: 0 auto;
+        width: 400px;
+    }
+    .mobilenoInput {
+        width:220px ;
+    }
+    .loginfeild  {
+         width: 360px;
+    }
+     
+    .btn-big  {
+       width: 360px;
+        margin-left: 30px;
+    }
+    
+    .mousePointer  {
+                 margin-left: 20px;
+                 margin-top: 20px;
+    }
+   .btn-facebook  {
+    width: 360px;
+    margin-left: 30px;
+   } 
+   .imageContainer {
+    display: none;
+}
+.submitcode{
+    width: 360px;
+    margin-left: 20px; 
+}
+}
+
+
+
+
+
+  
+@media only screen and (max-width: 600px) {
+
+    .loginformContainer {
+        margin: 0 auto;
+        width: 305px;
+    }
+    .mobilenoInput {
+        width:160px ;
+    }
+    .loginfeild  {
+         width: 270px;
+    }
+     
+    .btn-big  {
+       width: 270px;
+        margin-left: 30px;
+    }
+    
+    .mousePointer  {
+                 margin-left: 20px;
+                 margin-top: 0px;
+    }
+   .btn-facebook  {
+    width: 270px;
+    margin-left: 30px;
+   } 
+   .imageContainer {
+       display: none;
+   }
+   .submitcode{
+    width: 270px;
+        margin-left: 15px;
+}
+}
+

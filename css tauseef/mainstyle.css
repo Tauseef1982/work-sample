@@ -1,0 +1,282 @@
+
+body{
+    font-family: Camphor,Helvetica,Arial,sans-serif!important;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+.header-navs {
+    border-bottom: 2px solid #f0f0f5;
+}
+
+.header-navs .navbar{
+    width: 100%;
+    padding: 0;
+}
+
+a.navbar-brand{
+    padding: 24px 0 23px;
+}
+li.nav-item{
+    margin-right: 20px;
+    padding: 22px 0 9px;
+}
+
+a.nav-link{
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: -0.3px;
+    font-family: Camphor,Helvetica,Arial,sans-serif!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #000 !important;
+}
+
+a.nav-link p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #787887;
+    letter-spacing: -0.1px;
+}
+
+a.dropdown {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+i.fas.fa-check-circle {
+    color: #9f3bff;
+}
+
+.dropdown-menu{
+    padding: .2rem 0;
+    top: 59%;
+}
+
+.dropdown-item{
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #414146;
+    line-height: 35px;
+
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.dropdown-item:hover{
+    background-color: #f0f0f5;
+}
+
+a.dropdown-item span{
+    float: right;
+    background: #ff7800;
+    padding: 2px 5px;
+    font-size: 10px;
+    box-sizing: content-box;
+    color: white;
+    vertical-align: middle;
+    display: inline;
+    line-height: 12px;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+a.nav-login{
+    font-size: 13px;
+    line-height: 13px;
+    color: #787887 !important;
+    border-radius: 4px;
+    border: solid 1px #d3d3d3;
+    padding: 8px 10px;
+    font-weight: 400;
+}
+
+a.nav-login:hover {
+    border-color: #14bef0;
+    color: #14bef0 !important;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    display: none;
+    height: 100%; /* 100% Full-height */
+    width: 100%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #fff; /* light blue*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 20%;
+    font-size: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 7px 20px;
+}
+/* style page content -header styling */
+.header-navs{
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.sidenav span.plus{
+    margin-left: 11px;
+    background: #c502c5;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.sidenav-header{
+    padding: 18px 10px 17px;
+    background-color: #fafafa;
+    height: 60px;
+    margin-bottom: 12px;
+    display: flex;
+
+}
+
+
+.sidenav-header a{
+    width: 100%;
+    text-align: center;
+}
+
+.separator {
+    height: 3px;
+    border: 1.5px solid #f0f0f5;
+    border-radius: 2px;
+    margin: 12px auto;
+    width: calc(100% - 34px);
+}
+
+.sidenav a.nav-link span:nth-child(2){
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #787887;
+    letter-spacing: -0.1px;
+}
+
+i.fas.fa-flask,
+i.fas.fa-pills{
+    color: #787887;
+}
+
+span.arrow{
+    float: right;
+    margin-right: 13px;
+}
+
+a.download{
+    padding: 0 16px 6px;
+    margin-top: 6px;
+}
+
+a.appdownload {
+    height: 72px;
+    background-color: #f0f0f5;
+    border-radius: 4px;
+    padding: 16px 0;
+}
+
+.appdownload span:nth-child(2){
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #787887;
+    margin-left: 26px;
+}
+
+.side-links a{
+    font-weight: 400;
+}
+
+.footer-main{
+    background-color: #28328c;
+    padding: 48px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-content .content h6{
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-content .content a{
+    color: #fff;
+    display: block;
+    margin-bottom: 0;
+}
+
+.footer-copyright img{
+    margin: 28px auto;
+    display: block;
+}
+
+.footer-copyright span{
+    color: #b8bbd9;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .header-navs .navbar{
+        padding: 0 0 0 10px;
+    }
+
+    .sidenav a{
+        padding: 12px 0 12px 16px;
+    }
+}

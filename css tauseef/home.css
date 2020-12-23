@@ -1,0 +1,186 @@
+.wrap {
+    
+    
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+
+}
+ 
+
+.drsearch {
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    
+
+}
+.locationsearch {
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    width: 90%; 
+}
+.locationsearch:focus{
+    outline: none;
+}
+.covid19story{
+    margin-top: 50px;
+    background-color: #28328c;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.slider  {
+    background-color:#28328c;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+        
+}
+.dronline  {
+       color: #fff;
+}
+.dronline:hover{
+       text-decoration: none;
+       color: #fff;
+}
+.online-dr {
+      padding-top: 80px;
+      padding-bottom: 50px;
+}
+.find-dr-link {
+    color: #000;
+}
+.find-dr-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+.find-dr {
+       background-color: pink !important;
+       color: #fff !important;
+}
+.consult-dr {
+        background-color: skyblue !important;
+         color: #fff !important;
+}
+.covid-part {
+    color: #fff;
+    text-decoration: none;
+}
+.covid-part:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cardback {
+    background-color:#28328c !important ;
+    border: none !important;
+}
+.baynow {
+      color: rgb(221, 58, 159) !important;
+      background-color: #fff !important;
+}
+.visitapp {
+    color: rgb(119, 226, 236) !important;
+      background-color: #fff !important;
+}
+.covid-19-div {
+    justify-content: center;
+}
+.viwespeciality {
+        color: rgb(119, 226, 236);
+        border: 1px solid rgb(119, 226, 236);
+        text-decoration: none;
+        padding: 5px;
+
+}
+.viwespeciality:hover {
+    color: rgb(119, 226, 236);
+    border: 1px solid rgb(119, 226, 236);
+    text-decoration: none;
+
+}
+.specialitylink {
+     text-decoration: none;
+}
+.specialitylink:hover {
+    text-decoration: none;
+}
+image-container {
+    width:160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.articles-div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.articles-btn {
+    background-color:rgb(119, 226, 236) !important ;
+    color: #fff !important;
+}
+.article-link  {
+         color: black;
+}
+.article-link:hover  {
+    color: black;
+    text-decoration: none;
+}
+.app-download {
+    background-color: #f8f8fb;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.app-btn {
+    background-color:rgb(119, 226, 236) !important ;
+    color: #fff !important;
+    margin-left: 10px;
+}
+.schedule-link {
+       color: #000;
+}
+.schedule-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .appendtext {
+        height: 38px !important;
+     }
+         
+}
+
+@media only screen and (max-width: 600px){
+    .wrap> span {
+       display: none; 
+    }
+    .locationsearch::placeholder {
+        font-size: 12px;
+    }
+    .drsearch::placeholder {
+        font-size: 12px;
+    }
+    .appendtext {
+       height: 37px !important;
+    }
+}
+
+
+
+
+  
